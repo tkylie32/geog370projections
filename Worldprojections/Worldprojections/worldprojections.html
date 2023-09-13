@@ -12,53 +12,51 @@
     <p>In order to display the Natural Earth map in different projections I used the CRS tab in QGIS’s Project Properties to select the differing projections. Then once I selected each projection I used the Indicatrix Mapper plug-in I installed to apply Tissot's indicatrix to my maps. I created new print layouts for each of the map projections displayed below and saved them to my maps folder. </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>WGS 84 is one of the most well-known and commonly used projections. This map minimizes distortion along the equator, preserving shape, but distortion increases as you move toward the poles.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map projection is an oval-shaped map. It preserves the relative sizes of areas on the Earth's surface. It also minimizes distortion along the equator but distortion increases as you move towards the poles and away from the prime meridian.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>WGS 84 Pseudo-Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Mercator projection’s indicatrices are circles because it is a conformal projection, meaning it preserves shapes. However, the Mercator projection doesn't preserve area and size correctly, especially as you get closer to the poles.</h3>
     <a href="./maps/EPSG_3857.png">
     <img src="./maps/EPSG_3857.png" alt="3857" width='500px'>
     </a>
     <h2>Sphere Winkle 1 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Like the Aitoff projection this projection creates an oval-shaped map. This map is not an equal-area projection, but it makes an effort to preserve the relative sizes of landmasses and oceans.</h3>
     <a href="./maps/ESRI_53018.png">
     <img src="./maps/ESRI_53018.png" alt="53018" width='500px'>
     </a>
     <h2>World Cylindrical Equal Area Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is meant to preserve the area of the map well. There is little distortion in terms of shape and area along the equator, however, it increases as you move towards the poles.</h3>
     <a href="./maps/ESRI_54034NEWER.png">
     <img src="./maps/ESRI_54034NEWER.png" alt="54034" width='500px'>
     </a>
 </a>
 <h2>World Equidistant Conic Projection</h2>
-<h3>Some observations</h3>
+<h3>This appears to be a conformal projection, meaning it attempts to preserve shapes within the map. This map also aims to preserve distance as an equidistant projection. There is strong distortion near the poles, with different extremes.</h3>
 <a href="./maps/ESRI_54027.png">
 <img src="./maps/ESRI_54027.png" alt="54027" width='500px'>
 </a>
 <h2>North Pole Azimuthal Equidistant Projection</h2>
-<h3>Some observations</h3>
+<h3>This appears to be a conformal projection, meaning it attempts to preserve shapes within the map. This map also aims to preserve direction as it is equidistant. There is strong distortion near the poles, with different extremes.</h3>
 <a href="./maps/ESRI_102016.png">
 <img src="./maps/ESRI_102016.png" alt="102016" width='500px'>
 </a>
 <h2>Sphere Winkle Triple NGS</h2>
-<h3>Some observations</h3>
+<h3>Though this is not an equal-area projection, it makes an effort to preserve the relative sizes of landmasses and oceans. The Winkel Tripel projection also reduces the distortion near the poles when compared to some other projections above.</h3>
 <a href="./maps/ESRI_53042.png">
 <img src="./maps/ESRI_53042.png" alt="53042" width='500px'>
 </a>
 <h2>The World from Space Projection</h2>
-<h3>Some observations</h3>
+<h3>This is probably the most unique of all the projections. It appears much more spherical and its shape makes it appear 3-D. This projection does a good job of preserving the shape, area, direction, and distance of the world, however, we are unable to see the entirety of the map because of its shape.</h3>
 <a href="./maps/NEWESRI_102038.png">
 <img src="./maps/NEWESRI_102038.png" alt="102038" width='500px'>
 </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
